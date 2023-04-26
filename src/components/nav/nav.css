@@ -1,0 +1,40 @@
+#mainNav ul {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#mainNav ul > li {
+  color: #67819a;
+  padding: 15px 10px;
+  font-family: Helvetica;
+  font-size: clamp(8px,1vw,15px);
+}
+
+#mainNav ul > li:hover {
+  background-color: #F0F2F7;
+}
+
+textarea {
+  font-family: PT Sans, Helvetica;
+  font-size: 16px;
+}
+
+.tabstrip {
+font-size: clamp(8px,1vw,14px);
+}
+
+.ilaborMainNavSelection {
+background-color: #F0F2F7 !important;
+}
+
+.mainNavIcons {
+  margin-right: 10px;
+}
+
+#mainNavIndicator {
+  font-family: Helvetica;
+  font-size: 1.3em;
+  padding: 20px 40px 15px 40px;
+  color: #eef0f2;
+}
